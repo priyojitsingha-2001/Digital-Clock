@@ -1,0 +1,41 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+@font-face {
+    font-family: "DS-DIGI";
+    src: url("fonts/DS-DIGI.TTF");
+}
+
+body {
+    background-color: rgb(47, 47, 47);
+
+}
+
+.container {
+    display: grid;
+    place-items: center;
+    width: 100vw;
+    height: 100vh;
+    font-family: 'DS-DIGI', sans-serif;
+}
+
+.clockbox {
+    display: flex;
+    justify-content: center;
+    width: 67vw;
+    margin: auto;
+    background-color: rgb(38, 40, 40);
+    border: 8px solid crimson;
+    border-radius: 14px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.6);
+}
+
+.digits {
+    font-size: 13vw;
+    margin: 20px;
+    font-weight: bold;
+    color: greenyellow;
+}
